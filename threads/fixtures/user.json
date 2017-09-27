@@ -1,0 +1,56 @@
+[
+{
+    "fields": {
+        "username": "tatjanagkolhapure@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2017-09-24T12:46:18.073Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$udKcTTVVIErx$gKxuDcFPswiBLys267ByanOcO9J0J5u4hvUywZKJL3M=",
+        "email": "tatjanagkolhapure@gmail.com",
+        "date_joined": "2017-09-18T20:34:21.035Z"
+    },
+    "model": "accounts.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "username": "test@test.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2017-09-19T21:12:51.067Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$RlcSa8fICwsM$NxaW+v49HuU6JHYmvUI+LvU8jD2dDpi33NDZgtQetWo=",
+        "email": "test@test.com",
+        "date_joined": "2017-09-19T21:12:36.232Z"
+    },
+    "model": "accounts.user",
+    "pk": 2
+},
+{
+    "fields": {
+        "username": "forum_admin@forum.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2017-09-24T12:38:31.670Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$dJvowWZu5xcd$0hSSD9H7PbBHOlxQr0HhiEg+mzmmw4Kbgcx3XLnodHM=",
+        "email": "forum_admin@forum.com",
+        "date_joined": "2017-09-24T12:38:23.592Z"
+    },
+    "model": "accounts.user",
+    "pk": 3
+}
+]
