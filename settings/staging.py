@@ -14,11 +14,11 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_oV4e35Zirwo0wmm7Zr
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_wUTLcpVb8nhWmDxUhBKd0Yxc')
 
 # PayPal Settings
-PAYPAL_NOTIFY_URL = 'http://174a664b.ngrok.io/a-very-hard-to-guess-url/'
+PAYPAL_NOTIFY_URL = 'social-staging-code-institute.herokuapp.com'
 PAYPAL_RECEIVER_EMAIL = 'tatjanagkolhapure-facilitator@gmail.com'
 
-SITE_URL = 'https://your-heroku-app.herokuapp.com'
-ALLOWED_HOSTS.append('your-heroku-app.herokuapp.com')
+SITE_URL = 'social-staging-code-institute.herokuapp.com'
+ALLOWED_HOSTS.append('social-staging-code-institute.herokuapp.com')
 
 # Log DEBUG information to the console
 LOGGING = {
