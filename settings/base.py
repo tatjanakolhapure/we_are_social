@@ -110,4 +110,5 @@ TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", "js",
 DISQUS_WEBSITE_SHORTNAME = 'mybootcampblog'
 
 # Storing blog images
-MEDIA_ROOT = ''
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
