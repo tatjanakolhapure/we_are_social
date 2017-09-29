@@ -47,7 +47,6 @@ urlpatterns = [
 
     # Blog URLs
     url(r'^blog/', include('reusable_blog.urls')),
-    url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 
     # Forum URLs
     url(r'^forum/$', forum_views.forum),
