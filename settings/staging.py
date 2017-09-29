@@ -8,6 +8,9 @@ DATABASES = {
     'default': dj_database_url.config('CLEARDB_DATABASE_URL')
 }
 
+#static file route deployment to heroku - generates the folder when site uploaded.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_oV4e35Zirwo0wmm7ZrjgZO1k')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_wUTLcpVb8nhWmDxUhBKd0Yxc')
